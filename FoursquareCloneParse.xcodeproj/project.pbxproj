@@ -16,6 +16,7 @@
 		47550A6529B0BDF30036E586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47550A6329B0BDF30036E586 /* LaunchScreen.storyboard */; };
 		47D5880829B0F52C00D92C62 /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D5880729B0F52C00D92C62 /* PlacesVC.swift */; };
 		47D5880A29B1110C00D92C62 /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D5880929B1110C00D92C62 /* AddPlaceVC.swift */; };
+		47D5880C29B1136C00D92C62 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D5880B29B1136C00D92C62 /* MapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		47550A6629B0BDF30036E586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47D5880729B0F52C00D92C62 /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
 		47D5880929B1110C00D92C62 /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
+		47D5880B29B1136C00D92C62 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		5BE2B300EBF255813BC3537A /* Pods_FoursquareCloneParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoursquareCloneParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		822134EF56A0C2A806474161 /* Pods-FoursquareCloneParse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareCloneParse.debug.xcconfig"; path = "Target Support Files/Pods-FoursquareCloneParse/Pods-FoursquareCloneParse.debug.xcconfig"; sourceTree = "<group>"; };
 		B2C40C99E84FC2E3B81CB14C /* Pods-FoursquareCloneParse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareCloneParse.release.xcconfig"; path = "Target Support Files/Pods-FoursquareCloneParse/Pods-FoursquareCloneParse.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				47550A5C29B0BDF20036E586 /* SignUpVC.swift */,
 				47D5880729B0F52C00D92C62 /* PlacesVC.swift */,
 				47D5880929B1110C00D92C62 /* AddPlaceVC.swift */,
+				47D5880B29B1136C00D92C62 /* MapVC.swift */,
 				47550A5E29B0BDF20036E586 /* Main.storyboard */,
 				47550A6129B0BDF30036E586 /* Assets.xcassets */,
 				47550A6329B0BDF30036E586 /* LaunchScreen.storyboard */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47550A5D29B0BDF20036E586 /* SignUpVC.swift in Sources */,
+				47D5880C29B1136C00D92C62 /* MapVC.swift in Sources */,
 				47550A5929B0BDF20036E586 /* AppDelegate.swift in Sources */,
 				47D5880829B0F52C00D92C62 /* PlacesVC.swift in Sources */,
 				47D5880A29B1110C00D92C62 /* AddPlaceVC.swift in Sources */,
