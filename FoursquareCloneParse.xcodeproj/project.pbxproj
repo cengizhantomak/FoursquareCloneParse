@@ -14,6 +14,7 @@
 		47550A6029B0BDF20036E586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47550A5E29B0BDF20036E586 /* Main.storyboard */; };
 		47550A6229B0BDF30036E586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47550A6129B0BDF30036E586 /* Assets.xcassets */; };
 		47550A6529B0BDF30036E586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47550A6329B0BDF30036E586 /* LaunchScreen.storyboard */; };
+		47D5880829B0F52C00D92C62 /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D5880729B0F52C00D92C62 /* PlacesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		47550A6129B0BDF30036E586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47550A6429B0BDF30036E586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47550A6629B0BDF30036E586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D5880729B0F52C00D92C62 /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
 		5BE2B300EBF255813BC3537A /* Pods_FoursquareCloneParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoursquareCloneParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		822134EF56A0C2A806474161 /* Pods-FoursquareCloneParse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareCloneParse.debug.xcconfig"; path = "Target Support Files/Pods-FoursquareCloneParse/Pods-FoursquareCloneParse.debug.xcconfig"; sourceTree = "<group>"; };
 		B2C40C99E84FC2E3B81CB14C /* Pods-FoursquareCloneParse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareCloneParse.release.xcconfig"; path = "Target Support Files/Pods-FoursquareCloneParse/Pods-FoursquareCloneParse.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				822134EF56A0C2A806474161 /* Pods-FoursquareCloneParse.debug.xcconfig */,
 				B2C40C99E84FC2E3B81CB14C /* Pods-FoursquareCloneParse.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -76,6 +77,7 @@
 				47550A5829B0BDF20036E586 /* AppDelegate.swift */,
 				47550A5A29B0BDF20036E586 /* SceneDelegate.swift */,
 				47550A5C29B0BDF20036E586 /* ViewController.swift */,
+				47D5880729B0F52C00D92C62 /* PlacesVC.swift */,
 				47550A5E29B0BDF20036E586 /* Main.storyboard */,
 				47550A6129B0BDF30036E586 /* Assets.xcassets */,
 				47550A6329B0BDF30036E586 /* LaunchScreen.storyboard */,
@@ -209,6 +211,7 @@
 			files = (
 				47550A5D29B0BDF20036E586 /* ViewController.swift in Sources */,
 				47550A5929B0BDF20036E586 /* AppDelegate.swift in Sources */,
+				47D5880829B0F52C00D92C62 /* PlacesVC.swift in Sources */,
 				47550A5B29B0BDF20036E586 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
