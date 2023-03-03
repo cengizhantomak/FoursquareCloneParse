@@ -97,7 +97,7 @@ class PlacesVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let alert = UIAlertController(title: titleInput, message: messageInput, preferredStyle: UIAlertController.Style.alert)
         let okButton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
         alert.addAction(okButton)
-        self.present(alert, animated: true)
+        self.present(alert, animated: true, completion: nil)
     }
     
     

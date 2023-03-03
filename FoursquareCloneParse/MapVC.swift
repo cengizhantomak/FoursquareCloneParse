@@ -48,12 +48,12 @@ class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
             self.mapView.addAnnotation(annotation)
             
             PlaceModel.sharedInstance.placeLatitude = String(coordinates.latitude)
-            PlaceModel.sharedInstance.placeLongtitude = String(coordinates.longitude)
+            PlaceModel.sharedInstance.placeLongitude = String(coordinates.longitude)
         }
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        locationManager.stopUpdatingLocation()
+        //locationManager.stopUpdatingLocation()
         let location = CLLocationCoordinate2D(latitude: locations[0].coordinate.latitude, longitude: locations[0].coordinate.longitude)
         let span = MKCoordinateSpan(latitudeDelta: 0.035, longitudeDelta: 0.035)
         let region = MKCoordinateRegion(center: location, span: span)
@@ -69,7 +69,7 @@ class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         object["type"] = placeModel.placeType
         object["atmosphere"] = placeModel.placeAtmosphere
         object["latitude"] = placeModel.placeLatitude
-        object["longtitude"] = placeModel.placeLongtitude
+        object["longitude"] = placeModel.placeLongitude
         
         if let imageData = placeModel.placeImage.jpegData(compressionQuality: 0.5) {
             object["image"] = PFFileObject(name: "image.jpg", data: imageData)
